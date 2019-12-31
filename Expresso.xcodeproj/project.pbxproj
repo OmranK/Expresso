@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		B7FE121823BB352D004952E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE121723BB352D004952E5 /* AppDelegate.swift */; };
 		B7FE121A23BB352D004952E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE121923BB352D004952E5 /* SceneDelegate.swift */; };
-		B7FE121C23BB352D004952E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE121B23BB352D004952E5 /* ViewController.swift */; };
 		B7FE121F23BB352D004952E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FE121D23BB352D004952E5 /* Main.storyboard */; };
 		B7FE122123BB352F004952E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FE122023BB352F004952E5 /* Assets.xcassets */; };
 		B7FE122423BB352F004952E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FE122223BB352F004952E5 /* LaunchScreen.storyboard */; };
 		B7FE122F23BB352F004952E5 /* ExpressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE122E23BB352F004952E5 /* ExpressoTests.swift */; };
 		B7FE123A23BB352F004952E5 /* ExpressoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE123923BB352F004952E5 /* ExpressoUITests.swift */; };
+		B7FE124923BB35B9004952E5 /* OrderTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE124823BB35B9004952E5 /* OrderTableVC.swift */; };
+		B7FE124B23BB35D7004952E5 /* AddToOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE124A23BB35D7004952E5 /* AddToOrderVC.swift */; };
+		B7FE124E23BB35FF004952E5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE124D23BB35FF004952E5 /* Order.swift */; };
+		B7FE125123BB36B0004952E5 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE125023BB36B0004952E5 /* OrderViewModel.swift */; };
+		B7FE125323BB36E0004952E5 /* AddItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE125223BB36E0004952E5 /* AddItemViewModel.swift */; };
+		B7FE125523BB3725004952E5 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE125423BB3725004952E5 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		B7FE121423BB352D004952E5 /* Expresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FE121723BB352D004952E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7FE121923BB352D004952E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7FE121B23BB352D004952E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7FE121E23BB352D004952E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7FE122023BB352F004952E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7FE122323BB352F004952E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		B7FE123523BB352F004952E5 /* ExpressoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FE123923BB352F004952E5 /* ExpressoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressoUITests.swift; sourceTree = "<group>"; };
 		B7FE123B23BB352F004952E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FE124823BB35B9004952E5 /* OrderTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableVC.swift; sourceTree = "<group>"; };
+		B7FE124A23BB35D7004952E5 /* AddToOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToOrderVC.swift; sourceTree = "<group>"; };
+		B7FE124D23BB35FF004952E5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B7FE125023BB36B0004952E5 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		B7FE125223BB36E0004952E5 /* AddItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewModel.swift; sourceTree = "<group>"; };
+		B7FE125423BB3725004952E5 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,12 @@
 		B7FE121623BB352D004952E5 /* Expresso */ = {
 			isa = PBXGroup;
 			children = (
+				B7FE124F23BB3696004952E5 /* ViewModels */,
+				B7FE124C23BB35F5004952E5 /* Models */,
+				B7FE124723BB3551004952E5 /* Controllers */,
+				B7FE125623BB372A004952E5 /* Services */,
 				B7FE121723BB352D004952E5 /* AppDelegate.swift */,
 				B7FE121923BB352D004952E5 /* SceneDelegate.swift */,
-				B7FE121B23BB352D004952E5 /* ViewController.swift */,
 				B7FE121D23BB352D004952E5 /* Main.storyboard */,
 				B7FE122023BB352F004952E5 /* Assets.xcassets */,
 				B7FE122223BB352F004952E5 /* LaunchScreen.storyboard */,
@@ -126,6 +139,40 @@
 				B7FE123B23BB352F004952E5 /* Info.plist */,
 			);
 			path = ExpressoUITests;
+			sourceTree = "<group>";
+		};
+		B7FE124723BB3551004952E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE124823BB35B9004952E5 /* OrderTableVC.swift */,
+				B7FE124A23BB35D7004952E5 /* AddToOrderVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7FE124C23BB35F5004952E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE124D23BB35FF004952E5 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7FE124F23BB3696004952E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE125023BB36B0004952E5 /* OrderViewModel.swift */,
+				B7FE125223BB36E0004952E5 /* AddItemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B7FE125623BB372A004952E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE125423BB3725004952E5 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7FE121C23BB352D004952E5 /* ViewController.swift in Sources */,
 				B7FE121823BB352D004952E5 /* AppDelegate.swift in Sources */,
+				B7FE124B23BB35D7004952E5 /* AddToOrderVC.swift in Sources */,
+				B7FE125523BB3725004952E5 /* Webservice.swift in Sources */,
+				B7FE124E23BB35FF004952E5 /* Order.swift in Sources */,
+				B7FE125323BB36E0004952E5 /* AddItemViewModel.swift in Sources */,
+				B7FE125123BB36B0004952E5 /* OrderViewModel.swift in Sources */,
 				B7FE121A23BB352D004952E5 /* SceneDelegate.swift in Sources */,
+				B7FE124923BB35B9004952E5 /* OrderTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
